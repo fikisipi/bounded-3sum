@@ -2,11 +2,7 @@
 
 A Rust solver for the **3SUM decision problem**:
 
-> Given integers $a_1, \dots, a_n$, are there three distinct indices $i$, $j$, $k$ with $a_i + a_j + a_k = 0$?
-
-Note the question mark. This is the *decision* variant — it answers yes or no. It doesn't list the triples (that's *reporting*) or count them (that's *counting*).
-
-That distinction buys something. Once you only care whether a triple exists, you can stop the moment you find one. And you never have to build the full set of matches, which can be $\Theta(n^3)$ large.
+> Given integers $a_1, \dots, a_n$, are there three distinct indices $i$, $j$, $k$ with $a_i + a_j + a_k = 0$
 
 ## Implementation
 
