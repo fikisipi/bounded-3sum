@@ -38,8 +38,6 @@ Both benchmarks race the convolution solver against the textbook $O(n^2)$ sorted
 
 **`cargo run --release --example benchmark`** is the quick-and-dirty one. No dependencies; it just prints the CSV behind the plot. It warms up first and reports the *median*, so one unlucky slow run doesn't wreck the number.
 
-The plot is local release-build data. Read it as directional, not gospel.
-
 ![Runtime comparison](docs/compute.svg)
 
 Raw numbers are in `docs/compute.csv`.
