@@ -2,7 +2,7 @@
 
 (*) - thanks to Claude/Codex, read as an execise from CLRS ed4
 
-A Rust solver for the **3SUM decision problem**:
+A Rust solver for the **3SUM decision problem**, with a bounded universe:
 
 > Given integers $a_1, \dots, a_n \in [-U, U]$), are there three distinct indices $i$, $j$, $k$ with $a_i + a_j + a_k = 0$?
 
