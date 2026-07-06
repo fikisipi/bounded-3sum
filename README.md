@@ -1,4 +1,4 @@
-# NTT-Based subquadratic 3SUM in \[-U, U\]
+# NTT subquadratic 3SUM in \[-U, U\]
 
 (*) - thanks to Claude/Codex, read as an execise from CLRS ed4
 
