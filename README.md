@@ -23,7 +23,7 @@ Three outcomes:
 
 Count how many times each value shows up. That gives a frequency vector. Square it with a Number Theoretic Transform (NTT), and you learn, for every sum $s$, how many pairs $(a_i, a_j)$ add up to $s$.
 
-Uses inclusion–exclusion self-pairs and reused indices.
+Note that one must use inclusion–exclusion (see `count_distinct_index_triples`) to prevent counting errors.
 
 - Let $U = \max(a_i) - \min(a_i) + 1$.
 - Runtime is $O(U \log U)$, almost all of it the NTT. The only part that scales with $n$ is the single pass that tallies frequencies.
