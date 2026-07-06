@@ -61,21 +61,7 @@ cargo bench                                 # rigorous Criterion suite
 cargo run --release --example benchmark     # CSV table for the plot
 ```
 
-Use as a library:
-
-```rust
-use three_sum::Solution;
-
-fn main() {
     let nums = vec![-1, 0, 1, 2];
     println!("{:?}", Solution::has_three_sum(nums));
 }
 ```
-
-## Files
-
-- `src/lib.rs` - library implementation and tests
-- `benches/three_sum.rs` - Criterion benchmark suite (`cargo bench`)
-- `benches/support.rs` - shared input generator and quadratic baseline
-- `examples/benchmark.rs` - CSV-emitting harness for the compute plot
-- `docs/compute.svg` - runtime comparison plot
