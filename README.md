@@ -19,8 +19,6 @@ Three outcomes:
 - `Some(false)` — none does.
 - `None` — the values are spread too far apart for this method, so the solver declines instead of guessing.
 
-The trick is to stop thinking about the list and start thinking about the values.
-
 Count how many times each value shows up. That gives a frequency vector. Square it with a Number Theoretic Transform (NTT), and you learn, for every sum $s$, how many pairs $(a_i, a_j)$ add up to $s$.
 
 Now a triple exists whenever the value $-s$ is somewhere in the input. One lookup per sum.
