@@ -1,4 +1,4 @@
-# Bounded 3-SUM solver
+# FFT 3SUM in [-U, U]
 
 A Rust solver for the **3SUM decision problem**:
 
